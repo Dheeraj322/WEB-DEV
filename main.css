@@ -1,0 +1,241 @@
+  *{
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  /*NAVIGATION*/
+  .navi{
+    width: 100%;
+    height: auto;
+    background-color:#d6d6d6;
+  }
+
+  .indcontain {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 6px 16px;
+    overflow: hidden;
+  }
+
+  .indcontain > li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 575;
+    font-size: 20px;
+    margin: 0px 10px 0px 10px;
+    font-family: Roboto;
+  }
+
+  .indcontain > li a:hover {
+    background-color: gray;
+    border-radius: 5px;
+  }
+
+  h1{
+    text-align: center;
+    font-weight: 530;
+    font-size:  2rem;
+  }
+
+  /*HOME*/
+  .cHomes{
+    height: 92vh;
+    background-color: #212121;
+  }
+
+  .hcontain{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+  }
+
+  .arrow{
+    height: 2vw;
+    width: 2vw;
+    border-style: solid;
+    border-color: #514f4f;
+    border-width: 0px 1.5px 1.5px 0px;
+    transform: rotate(45deg);
+    transition: border-width 0.25s ease-in-out;
+    margin: 18.2rem auto;
+    scroll-behavior: smooth;
+    animation: blinking 1.8s linear infinite;
+  }
+
+  @keyframes blinking{
+    0%{  
+      opacity: 0.1;  
+    }  
+    50%{  
+      opacity: 1;  
+    }  
+    100%{  
+      opacity: 0.1;  
+    }
+  }
+
+  .arrow:hover{
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+  }
+
+  #hid{
+    font-size: 2rem;
+    margin: 14rem 0px 0px 0px;
+    color: #ffffff;
+  }
+
+  #nid{
+    font-size: 5rem;
+    margin: 0px 0px 0px 80px;
+    color: #ffffff;
+  }
+
+  #aid{
+    width: auto;
+    margin: auto;
+  }
+
+  /*ABOUT ME*/ 
+  .acontain{
+    width: auto;
+    margin: 1rem auto;
+  }
+
+  .acontaininfo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 2rem 0px 0px 30px;
+    gap: 4%;
+  }  
+  
+  /*PROJECTS*/
+  .scontain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 2rem auto;
+  }
+ 
+  .scontaininfo{
+    display: grid;
+    margin: 1.5rem auto;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-gap: 2rem;
+  }
+
+  .actuals{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    align-items: center;
+    background-color: #d6d6d6;
+    border-radius: 15px;
+    transition: .5s;
+    transition-timing-function: ease;
+  }
+
+  .actuals > p{
+    padding: 5px;
+  }
+
+  .actuals:hover{
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+  }
+
+  /*PROJECTS*/
+  .pcontain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .pcontaininfo{
+    display: grid;
+    margin: 1.5rem auto;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-gap: 2rem;
+  }
+
+  .actualp{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    align-items: center;
+    background-color: #d6d6d6;
+    border-radius: 15px;
+    transition: .5s;
+    transition-timing-function: ease;
+  }
+
+  .actualp:hover{
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+  }
+
+  /*CONTACTS*/
+  #contact_in_p{
+    font-size: 1.3rem;
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+  }
+
+  .contact_in{
+    width: 80%;
+    margin: 1.5rem 0px 0px 0px;
+    width: auto;
+  }
+
+  .contact_inlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact_inlist > a{
+    text-decoration: none;
+    color: #0000ff;
+    font-family: Roboto;
+    margin: 10px;
+  }
+
+  .footer{
+    display: flex;
+    background-color: #d6d6d6;
+    text-align: center;
+    height: min(80px, 12vw);
+    margin: 20px 0px 0px 0px;
+    justify-content: center;
+  }
+
+  .containfooter{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-weight: 575;
+  }
